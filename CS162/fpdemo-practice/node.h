@@ -36,3 +36,21 @@ void last_same_as_first(node * &head);
 
 // 2. Sum all of the data in a LLL and add a new node to the end with this value
 int add_sum_to_last(node * &head);
+
+// 3. Remove the first node that isn't a 2
+int remove_non_two(node * &head);
+
+// 4. Remove the last node
+int remove_last(node * &head);
+
+// 5. Remove the last node but only if it isn't the same as the first
+int remove_last_if_not_first(node * &head);
+
+// 6. Move the first node and put it at the end of the list
+int remove_first_place_at_last(node * &head);
+
+// 7. Swap the data in the first and last nodes
+int swap_first_last_data(node * &head);
+
+// 8. Swap the first and last NODEs
+int swap_first_and_last_node(node * &head);

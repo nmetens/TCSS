@@ -14,9 +14,6 @@ int main() {
     build(head);
     display(head);
 
-
-
-
     display(head);
     
     return 0;

@@ -1,0 +1,56 @@
+ElectricWitch Spells:
+Apparate
+Bombardo
+Crucio
+Episkey
+Evanesco
+Immobulus
+Alohomora
+Avada Kedavra
+Lumos
+Accio
+Expelliarmus
+Wingardium Leviosa
+
+ElectricWitch Items:
+Wand
+Cauldron
+Bat
+Snake
+Magnet
+Rat
+Mushroom
+Hair
+Blood
+Battery
+Electron
+
+Cyclist Snacks:
+Water Bottle
+Clif Bar
+Nuts
+Candy
+Sandwich
+Gel Pack
+Banana
+Gatorade
+Snickers Bar
+Waffle
+Orange
+Beer
+Croissant
+Cinnamon Roll
+
+Horse Items:
+Carrot
+Hay Bale
+Saddle
+$100
+Dung
+Lead
+Apple
+Celery
+Cucumber
+Melon
+$150
+$1000

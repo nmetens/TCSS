@@ -1,0 +1,41 @@
+ElectricWitch Names:
+Belladonna
+Agnes
+Esme
+Agatha
+Hermione
+Amethyst
+Brigid
+Margaret
+Alice
+Beatrix
+Juniper
+Aurora
+
+Horse Names:
+Cinnamon
+Dakota
+Flash
+Mocha
+Sparky
+Teddy
+Barbaro
+Sheldon
+Carly
+Trixie
+Eleanor
+Scout
+
+Cyclist Names:
+Eddy Merckx
+Jonas Vingegaard
+Tadej Pogacar
+Remco Evenpoel
+Primoz Roglic
+Egan Bernal
+Peter Sagan
+Lance Armstrong
+Julian Alaphilippe
+Matthew Vanderpool
+Chris Froome
+Thomas Pidcock

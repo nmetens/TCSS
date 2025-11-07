@@ -13,7 +13,8 @@ void Animal::display() {
 }
 
 void Animal::sound() {
-    cout << noise << endl;
+    cout << "Base class sound!" << endl;
+    //cout << noise << endl;
 }
 
 //#############################
@@ -37,6 +38,7 @@ void Cat::display() {
 }
 
 void Cat::sound() {
+    Animal::sound(); // UPCASTING
     cout << noise << endl;
 }
 

@@ -29,6 +29,11 @@ void Dog::sound() {
     cout << noise << endl;
 }
 
+
+int Dog::get_biteforce() {
+    return biteforce;
+}
+
 //#############################
 
 Cat::Cat(int weight, string noise, float jump_height): Animal(weight, noise), jump_height(jump_height) {}

@@ -7,8 +7,8 @@ int main() {
 
     cout << "*****************************" << endl;
 
-    Animal * dog = new Dog(5);
-    Animal * cat = new Cat(6.0);
+    Animal * dog = new Dog();
+    Animal * cat = new Cat();
 
     //Dog dog(5);
     dog->sound();
@@ -44,20 +44,24 @@ int main() {
 
     //##########################################
     cout << "*****************************" << endl;
-    cout << "Downcasting example:" << endl;
+    cout << "Downcasting example using RTTI:" << endl;
     cout << "*****" << endl;
     // Downcasting example:
-    Animal * base_ptr = new Dog;
+    Animal * base_ptr = new Dog(150, "woof", 59);
     //Animal * base_ptr = new Cat;
 
     Cat * c_ptr = dynamic_cast<Cat *> (base_ptr);
     Dog * d_ptr = dynamic_cast<Dog *> (base_ptr);
 
     if (c_ptr) {
+        // This function IS virtual in the base:
         c_ptr->sound();
     }
     else if (d_ptr) {
-        d_ptr->sound();
+        // Call a function NOT in the BASE:
+        // THIS is RTTI:
+        int bite = d_ptr->get_biteforce();
+        cout << "The biteforce: " << bite << endl;
     }
     else {
         cout << "Both casts failed\n";
